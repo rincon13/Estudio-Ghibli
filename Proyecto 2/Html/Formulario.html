@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es" style="background-color:rgb(229, 255, 237);"></html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario</title>
+        <link rel="stylesheet" type="text/css" href="../css/css.css">
+    </head>
+    <body>
+        <h2 style="color:dimgray">MarineMI</h2>
+
+        <form>
+            <h1 class="heart"><mark>Formulario</mark></h1>
+
+                <label for="Nombre"><h2 class="balpen">Nombre</h2></label>
+                <br>
+                <input type="text" id="Nombre" name="Nombre" size="40" required>
+
+                <br>
+                <br>
+
+                <label for="Apellidos"><h2 class="balpen">Apellidos</h2></label>
+                <br>
+                <input type="text" id="Apellidos" name="Apellidos" size="40" required>
+
+                <br>
+                <br>
+
+                <label for="Contraseña"><h2 class="balpen">Contraseña</h2></label>
+                <br>
+                <input type="password" id="Contraseña" name="Contraseña" size="40" required>
+
+                <br>
+                <br>
+
+                <label for="Confirmar contraseña"><h2 class="balpen">Confirmar contrseña</h2></label>
+                <br>
+                <input type="password" id="Confirmar contraseña" name="Confirmar contraseña" size="40" required>
+
+                <br>
+                <br>
+
+                <label for="email"><h2 class="balpen">Email</h2></label>
+                <br>
+                <input type="text" id="email" name="email" size="40" required>
+
+                <br>
+                <br>
+
+                <label for="Sexo"><h2 class="balpen">Sexo</h2></label>
+                <br>
+                <input type="radio" id="Mujer" name="sexo" required>
+                <label for="Mujer">Mujer</label>
+                <br>
+                <input type="radio" id="Hombre" name="sexo">
+                <label for="Hombre">Hombre</label>
+
+                <br>
+                <br>
+
+                <label for="start"><h2 class="balpen">Día de nacimiento</h2></label>
+                <br>
+                <input type="date" id="start" name="nacimiento" value="2024-02-20" min="2006-01-01" required>
+
+                <br>
+                <br>
+
+                <label for="phone"><h2 class="balpen">Escriba su número de teléfono</h2></label>
+                <br>
+                <input type="tel" id="phone" name="teléfono" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+
+                <br>
+                <br>
+                    
+                <h2 class="balpen">País</h2>
+                <br>
+                <label for="país">&nbsp;</label>
+                    <select id="país">
+                        <option>España</option>
+                        <option>Italia</option>
+                        <option>Alemania</option>
+                        <option>Francia</option>
+                        <option>Suiza</option>
+                        <option>Países Bajos</option>
+                        <option>Grecia</option>
+                        <option>Polonia</option>
+                        <option>Reino Unido</option>
+                        <option>Ucrania</option>
+                        <option>Turquia</option>
+                        <option>Noruega</option>
+                    </select>
+                    
+                <br>
+                <br>
+
+                <label for="Aficiones"><h2 class="balpen">¿Te ha gustado nuestra página web?</h2></label>
+                <br>
+                <input type="checkbox" name="a1" value="deporte">Sí<br>
+                <input type="checkbox" name="a2" value="deporte">No<br>
+
+                <br>
+                <br>
+
+                <h2 class="balpen"> De las películas mostradas en esta página, ¿cuál fue su favorita? </h2>
+                <br>
+                <input type="radio" id="Castillo" name="películas">
+                <label for="Castillo">El Castillo Ambulante</label>
+                <br>
+                <input type="radio" id="Chihiro" name="películas">
+                <label for="Chihiro">El Viaje de Chihiro</label>
+                <br>
+                <input type="radio" id="Totoro" name="películas">
+                <label for="Totoro">Mi Vecino Totoro</label>
+
+                <br>
+                <br>
+
+                <label for="página informativa"><h2 class="balpen">¿De qué otra película te gustaría que tenga su propia página informativa?</h2></label>
+                <br>
+                <input list="lista de películas" name="página informativa" id="página informativa">
+                <datalist id="lista de películas">
+                    <option value="El chico y la garza">
+                    <option value="La tumba de las luciérnagas">
+                    <option value="Ponyo">
+                    <option value="El recuerdo de Marnie">
+                    <option value="El cuento de la princesa Kaguya">
+                    <option value="El regreso del gato">
+                </datalist>
+
+                <br>
+                <br>
+
+                <h2 class="balpen"> Suba la imagen del personaje o película del estudio ghibli que más le guste </h2>
+                <br>
+                <input type="file" name="imagen">
+                    
+                <br>
+                <br>
+
+                <label for="¿Qué podemos mejorar?" class="balpen"><h2>¿Qué podemos mejorar?</h2></label>
+                <br>
+                <textarea name="" id="" cols="40" rows="5" placeholder="Recomiendo que.../Estaría bien si.../Podríais..."></textarea>
+
+                <br>
+                <br>
+
+                <input type="reset" id="reset" name="Resetear">
+
+                <br>
+                <br>
+
+                <input type="submit" id="submit" name="Enviar">
+        </form>
+    </body>
+</html>
