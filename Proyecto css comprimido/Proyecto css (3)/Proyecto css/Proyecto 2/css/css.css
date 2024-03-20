@@ -1,0 +1,129 @@
+@font-face {
+    font-family:bombfont ;
+    src: url("SoupLeaf.ttf");
+}
+.x {font-family: bombfont;}
+
+h1 {color:rgb(36, 78, 36); font-family: bombfont; font-size: 3.5em;}
+
+@font-face {
+    font-family:bob ;
+    src: url("Bobbleboddy.ttf");
+}
+.y {font-family: bob;}
+
+h3 {color:rgb(0, 0, 0); font-family: bob; font-size: 2.5em;}
+
+@font-face {
+    font-family:dg ;
+    src: url("DidactGothic.ttf");
+}
+.z {font-family: dg;}
+
+@font-face {
+    font-family:reg ;
+    src: url(Melbourne_reg.otf);
+}
+.a {font-family: reg;}
+
+p {color:rgb(0, 0, 0); font-family: dg;}
+
+#menu_h a{color:rgb(5, 39, 90); font-family: dg;}
+#menu_h a:hover{color:rgb(55, 107, 186); font-family: dg;}
+
+
+#formulario {display:block; margin:1px; padding:5px; text-decoration: none; color:rgb(0, 0, 0); border-radius: 8px; background-color:rgb(208, 244, 209); width:80px}
+#formulario:hover {color:rgb(255, 255, 255); background-color:rgb(12, 108, 34); text-decoration:underline;}
+
+#botones1 {display:block; margin:1px; padding:5px; text-decoration: none; color:rgb(0, 0, 0); border-radius: 8px; background-color:rgb(215, 240, 255); width:200px}
+#botones1:hover {color:rgb(255, 255, 255); background-color:rgb(12, 82, 108); text-decoration:underline;}
+
+.castillo1 {background-color:rgb(215, 240, 255); font-family: reg;}
+.castillo2 {background-color:rgb(115, 183, 208); font-family: reg;}
+.castillo3 {background-color:rgb(169, 232, 255); font-family: reg;}
+.castillo4 {background-color:rgb(220, 241, 255); font-family: reg;}
+
+#botones2 {display:block; margin:1px; padding:5px; text-decoration: none; color:rgb(0, 0, 0); border-radius: 8px; background-color:rgb(170, 214, 201); width:200px}
+#botones2:hover {color:rgb(255, 255, 255); background-color:rgb(40, 108, 88); text-decoration:underline;}
+
+.totoro1 {background-color:rgb(110, 185, 162); font-family: reg;}
+.totoro2 {background-color:rgb(134, 200, 180); font-family: reg;}
+.totoro3 {background-color:rgb(170, 214, 201); font-family: reg;}
+
+#botones3 {display:block; margin:1px; padding:5px; text-decoration: none; color:rgb(0, 0, 0); border-radius: 8px; background-color:rgb(215, 240, 255); width:200px}
+#botones3:hover {color:rgb(255, 255, 255); background-color:rgb(39, 83, 109); text-decoration:underline;}
+
+.chihiro1 {background-color:rgb(77, 139, 177); font-family: reg;}
+.chihiro2 {background-color:rgb(140, 203, 226); font-family: reg;}
+.chihiro3 {background-color:rgb(215, 240, 255); font-family: reg;}
+
+#botones4 {display:block; margin:1px; padding:5px; text-decoration: none; color:rgb(0, 0, 0); border-radius: 8px; background-color:rgb(234, 229, 212); width:200px}
+#botones4:hover {color:rgb(255, 255, 255); background-color:rgb(129, 108, 33); text-decoration:underline;}
+
+.chihiro4 {background-color:rgb(234, 229, 212); font-family: reg;}
+.chihiro5 {background-color:rgb(226, 211, 158); font-family: reg;}
+.chihiro6 {background-color:rgb(224, 215, 184); font-family: reg;}
+
+
+@font-face {
+    font-family:heart ;
+    src: url("Heartbeat.otf");
+}
+.heart {font-family: heart;}
+
+@font-face {
+    font-family:balpen ;
+    src: url("Blokletters-Balpen.ttf");
+}
+.balpen {font-family: balpen;}
+#balpen {font-family: balpen;}
+
+@font-face {
+    font-family:andro ;
+    src: url("Androgyne_TB.otf");
+}
+.andro {font-family: andro; font-size: 3em;}
+
+
+#inicio1 {display:block; margin:1px; padding:5px; text-decoration: none; color:rgb(0, 0, 0); border-radius: 8px; background-color:rgb(247, 238, 162); width:40px}
+#inicio1:hover {color:rgb(255, 255, 255); background-color:rgb(114, 116, 14); text-decoration:underline;}
+
+#informacion1 {display:block; margin:1px; padding:5px; text-decoration: none; color:rgb(0, 0, 0); border-radius: 8px; background-color:rgb(247, 238, 162); width:140px}
+#informacion1:hover {color:rgb(255, 255, 255); background-color:rgb(114, 116, 14); text-decoration:underline;}
+
+#personajes1 {display:block; margin:1px; padding:5px; text-decoration: none; color:rgb(0, 0, 0); border-radius: 8px; background-color:rgb(247, 238, 162); width:120px}
+#personajes1:hover {color:rgb(255, 255, 255); background-color:rgb(114, 116, 14); text-decoration:underline;}
+
+#inicio2 {display:block; margin:1px; padding:5px; text-decoration: none; color:rgb(0, 0, 0); border-radius: 8px; background-color:rgb(242, 238, 230); width:40px}
+#inicio2:hover {color:rgb(255, 255, 255); background-color:rgb(133, 120, 92); text-decoration:underline;}
+
+#informacion2 {display:block; margin:1px; padding:5px; text-decoration: none; color:rgb(0, 0, 0); border-radius: 8px; background-color:rgb(242, 238, 230); width:140px}
+#informacion2:hover {color:rgb(255, 255, 255); background-color:rgb(133, 120, 92); text-decoration:underline;}
+
+#personajes2 {display:block; margin:1px; padding:5px; text-decoration: none; color:rgb(0, 0, 0); border-radius: 8px; background-color:rgb(242, 238, 230); width:120px}
+#personajes2:hover {color:rgb(255, 255, 255); background-color:rgb(133, 120, 92); text-decoration:underline;}
+
+#inicio3 {display:block; margin:1px; padding:5px; text-decoration: none; color:rgb(0, 0, 0); border-radius: 8px; background-color:rgb(225, 241, 255); width:40px}
+#inicio3:hover {color:rgb(255, 255, 255); background-color:rgb(101, 129, 154); text-decoration:underline;}
+
+#informacion3 {display:block; margin:1px; padding:5px; text-decoration: none; color:rgb(0, 0, 0); border-radius: 8px; background-color:rgb(225, 241, 255); width:140px}
+#informacion3:hover {color:rgb(255, 255, 255); background-color:rgb(101, 129, 154); text-decoration:underline;}
+
+#personajes3 {display:block; margin:1px; padding:5px; text-decoration: none; color:rgb(0, 0, 0); border-radius: 8px; background-color:rgb(225, 241, 255); width:120px}
+#personajes3:hover {color:rgb(255, 255, 255); background-color:rgb(101, 129, 154); text-decoration:underline;}
+
+#inicio4 {display:block; margin:1px; padding:5px; text-decoration: none; color:rgb(0, 0, 0); border-radius: 8px; background-color:rgb(211, 206, 163); width:40px}
+#inicio4:hover {color:rgb(255, 255, 255); background-color:rgb(129, 125, 86); text-decoration:underline;}
+
+#informacion4 {display:block; margin:1px; padding:5px; text-decoration: none; color:rgb(0, 0, 0); border-radius: 8px; background-color:rgb(211, 206, 163); width:140px}
+#informacion4:hover {color:rgb(255, 255, 255); background-color:rgb(129, 125, 86); text-decoration:underline;}
+
+#personajes4 {display:block; margin:1px; padding:5px; text-decoration: none; color:rgb(0, 0, 0); border-radius: 8px; background-color:rgb(211, 206, 163); width:120px}
+#personajes4:hover {color:rgb(255, 255, 255); background-color:rgb(129, 125, 86); text-decoration:underline;}
+
+
+#iniciohistoria {display:block; margin:1px; padding:5px; text-decoration: none; color:rgb(0, 0, 0); border-radius: 8px; background-color:rgb(208, 244, 209); width:40px}
+#iniciohistoria:hover {color:rgb(255, 255, 255); background-color:rgb(12, 108, 34); text-decoration:underline;}
+
+#tabla {border: 5px solid;}
+.tabla-centro {text-align: start; margin-left: auto; margin-right: auto;}
